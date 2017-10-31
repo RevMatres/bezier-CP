@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # bezier-js
 My take on a bezier curve drawing API in JavaScript.
 
@@ -71,3 +72,11 @@ doodldooo
 ### bezierPoint
 #### Methods
 #### Properties
+=======
+# bezier-CP
+my take on a bezier curve drawing API
+
+bezier-CP is short for bezier Control Points.
+
+This library provides functions, that calculate bezier control points, given two or more neighbouring points. 
+>>>>>>> de1b29e202c6e17e70575923a143684ca5fdb5c0
