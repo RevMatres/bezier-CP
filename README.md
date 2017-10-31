@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# bezier-js
+# bezier-CP
 My take on a bezier curve drawing API in JavaScript.
 
 
@@ -13,18 +12,19 @@ At least while I'm writing this the documentation isn't that great... Ah, well.
 
 
 ## Well, what is this?
-bezier-js is a javascript package containing a few classes and functions for drawing bezier curves (on an HTML canvas element).
+bezier-CP is a javascript package containing a few classes and functions for drawing bezier curves (on an HTML canvas element).
 
-Bezier curves are defined by a set of points, each of which gets one or two control points. Those control points are used
+Bezier curves are defined by a set of points, each of which gets one or two **control points**. Those control points are used
 to define the curve's smooth shape, while the curve goes through each of the points.
 
-If you have an Array of points, you can use the functions from bezier-js to calculate the control points.
+bezier-CP provides functions to calculate the location of such control points, given the points of the curve.
 
+Automation is also supported: given a whole array of points, the control points can be added to those points.
 
 
 ## Usage
 
-bezier-js includes the following objects for public use:
+bezier-CP includes the following objects for public use:
 
 ### createBezierControlPoints()
 **createBezierControlPoints()** returns the point Object, that is passed into it, with the addition of cp1 and cp2.
@@ -72,11 +72,3 @@ doodldooo
 ### bezierPoint
 #### Methods
 #### Properties
-=======
-# bezier-CP
-my take on a bezier curve drawing API
-
-bezier-CP is short for bezier Control Points.
-
-This library provides functions, that calculate bezier control points, given two or more neighbouring points. 
->>>>>>> de1b29e202c6e17e70575923a143684ca5fdb5c0
