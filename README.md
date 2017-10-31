@@ -24,6 +24,14 @@ Automation is also supported: given a whole array of points, the control points 
 
 ## Usage
 
+<!--
+
+  FINISH CREATING THE API
+  THEN REWRITE THIS DOCUMENTATION!
+
+ -->
+
+
 bezier-CP includes the following objects for public use:
 
 ### createBezierControlPoints()
